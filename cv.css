@@ -1,0 +1,161 @@
+body,
+html {
+    height: 100%;
+    background-image: url("img/gory3.jpg");
+    background-position-y: 30%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through*/
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+.name {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 40px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 70px;
+        padding-left: 100px;
+
+
+    }
+}
+
+.tile {
+    text-align: center;
+}
+
+.margin_bot {
+    margin-bottom: 20px;
+}
+
+.fb {
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a.tilelink {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a.tilelink:hover {
+    color: rgb(214, 230, 240);
+    width: 100px;
+}
+
+a.tilelinkhtml5 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.sociallink {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-text {
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.photo {
+    text-align: center;
+}
+
+#emailHelp {
+    color: rgb(49, 48, 48) !important;
+}
+
+#check {
+    margin-bottom: 30px;
+}
+
+.log-container {
+    max-width: 600px;
+}
+
+.password-one {
+    margin-bottom: 30px;
+}
+
+.list-unstyled {
+    text-align: left;
+}
+
+.contactColor {
+    color: rgb(75, 157, 204);
+    font-size: 20px;
+}
+
+.contactText {
+    margin-top: 50px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.figure-caption {
+    text-align: left;
+    color: rgb(155, 183, 199);
+}
+
+#about {
+    text-align: left;
+    padding: 50px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.photoProject {
+    height: 28vh;
+    transition: transform 0.2s ease-in-out;
+}
+
+.photoProject:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
