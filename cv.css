@@ -10,6 +10,8 @@ html {
 }
 
 
+
+
 body {
     background-color: #303030;
     color: #ffffff;
@@ -29,7 +31,10 @@ body {
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
-
+/* .row {
+    margin-left: 0;
+    margin-right: 0;
+} */
 
 .name {
     margin-top: 20px;
@@ -37,20 +42,54 @@ body {
 
 @media only screen and (max-width: 600px) {
     .logo {
-        font-size: 40px;
-        padding-left: 0px;
+        font-size: 30px;
+        /* padding-left: 0px; */
         text-align: center;
+        margin-bottom: 30px;
     }
+    .social {
+        margin: 50px auto 0;
+    }
+    .hero-text {
+        padding: 0;
+        text-align: center
+    }
+    .tittle {
+        text-align: center;
+        font-size: 30px;
+    }
+    #about {
+        text-align: left;
+        font-size: 17px;
+    }
+    .figure-caption {
+        color: white;
+    }
+    a {
+        color: white;
+    }
+    
 }
+
+
 
 @media only screen and (min-width: 600px) {
     .logo {
-
         font-family: 'Josefin Sans', sans-serif;
         font-size: 70px;
         padding-left: 100px;
-
-
+    }
+    .hero-text {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    #about {
+        text-align: left;
+        padding: 50px;
+    }
+    .figure-caption {
+        text-align: left;
+        color: rgb(155, 183, 199);
     }
 }
 
@@ -89,10 +128,7 @@ a.sociallink {
     text-decoration: none;
 }
 
-.hero-text {
-    margin-top: 20px;
-    margin-left: -10px;
-}
+
 
 .about {
     margin-top: 30px;
@@ -135,15 +171,6 @@ a.sociallink {
     text-align: center;
 }
 
-.figure-caption {
-    text-align: left;
-    color: rgb(155, 183, 199);
-}
-
-#about {
-    text-align: left;
-    padding: 50px;
-}
 
 .arrow:hover {
     cursor: pointer;
