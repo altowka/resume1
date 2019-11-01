@@ -132,6 +132,8 @@ a.sociallink {
 
 .about {
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo {
@@ -166,6 +168,8 @@ a.sociallink {
 .contactText {
     margin-top: 50px;
 }
+
+/* projects //////////////////////////////////////////*/
 
 .projects {
     text-align: center;
