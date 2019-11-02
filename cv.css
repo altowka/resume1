@@ -181,7 +181,7 @@ a.sociallink {
 }
 
 .photoProject {
-    height: 28vh;
+    /* height: 28vh; */
     transition: transform 0.2s ease-in-out;
 }
 
