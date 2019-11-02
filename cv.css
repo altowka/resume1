@@ -1,3 +1,4 @@
+/* to all pages//////////////// */
 body,
 html {
     height: 100%;
@@ -9,9 +10,6 @@ html {
     box-sizing: border-box;
 }
 
-
-
-
 body {
     background-color: #303030;
     color: #ffffff;
@@ -21,29 +19,22 @@ body {
 
 .container {
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through*/
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-bottom: 30px;
-}
-/* .row {
-    margin-left: 0;
-    margin-right: 0;
-} */
+    padding-bottom: 30px;}
+
 
 .name {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     .logo {
         font-size: 30px;
-        /* padding-left: 0px; */
         text-align: center;
         margin-bottom: 30px;
     }
@@ -73,7 +64,7 @@ body {
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
     .logo {
         font-family: 'Josefin Sans', sans-serif;
         font-size: 70px;
@@ -92,7 +83,7 @@ body {
         color: rgb(155, 183, 199);
     }
 }
-
+/* main///////////////////// */
 .tile {
     text-align: center;
 }
@@ -127,9 +118,7 @@ a.sociallink {
     color: #ffffff;
     text-decoration: none;
 }
-
-
-
+/* about//////////////// */
 .about {
     margin-top: 30px;
     margin-left: auto;
@@ -139,6 +128,8 @@ a.sociallink {
 .photo {
     text-align: center;
 }
+
+/* ///////////contact */
 
 #emailHelp {
     color: rgb(49, 48, 48) !important;
@@ -160,6 +151,10 @@ a.sociallink {
     text-align: left;
 }
 
+.arrow:hover {
+    cursor: pointer;
+}
+
 .contactColor {
     color: rgb(75, 157, 204);
     font-size: 20px;
@@ -175,13 +170,7 @@ a.sociallink {
     text-align: center;
 }
 
-
-.arrow:hover {
-    cursor: pointer;
-}
-
 .photoProject {
-    /* height: 28vh; */
     transition: transform 0.2s ease-in-out;
 }
 
