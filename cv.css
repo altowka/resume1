@@ -3,8 +3,8 @@ body,
 html {
     height: 100%;
     background-image: url("img/gory3.JPG");
-    background-position-y: 30%;
-    background-attachment: fixed;
+    /* background-position-y: 30%;
+    background-attachment: fixed; */
 }
 
 * {
@@ -26,7 +26,8 @@ body {
     border: 3px solid #f1f1f1;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+}
 
 
 .name {
@@ -34,33 +35,44 @@ body {
 }
 
 @media only screen and (max-width: 770px) {
+    body,
+    html {
+        /* background-position-y: 30%; */
+        background-attachment: scroll;
+    }
     .logo {
         font-size: 30px;
         text-align: center;
         margin-bottom: 30px;
     }
+
     .social {
         margin: 50px auto 0;
     }
+
     .hero-text {
         padding: 0;
         text-align: center
     }
+
     .tittle {
         text-align: center;
         font-size: 30px;
     }
+
     #about {
         text-align: left;
         font-size: 17px;
     }
+
     .figure-caption {
         color: white;
     }
+
     a {
         color: white;
     }
-    
+
 }
 
 
@@ -68,25 +80,36 @@ body {
 
 
 @media only screen and (min-width: 770px) {
+
+    body,
+    html {
+        background-position-y: 30%;
+        background-attachment: fixed;
+    }
+
     .logo {
         font-family: 'Josefin Sans', sans-serif;
         font-size: 70px;
         padding-left: 100px;
     }
+
     .hero-text {
         margin-top: 20px;
         margin-left: -10px;
     }
+
     #about {
         text-align: left;
         padding: 50px;
     }
+
     .figure-caption {
         text-align: left;
         color: rgb(155, 183, 199);
     }
-    
+
 }
+
 /* main///////////////////// */
 .tile {
     text-align: center;
@@ -122,6 +145,7 @@ a.sociallink {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* about//////////////// */
 .about {
     margin-top: 30px;
