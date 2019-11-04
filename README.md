@@ -7,7 +7,7 @@ My online portfolio - simple web page created with HTML5 and CSS3
 * [Inspiration](#inspiration)
 
 ## General info
-I created this project because I think that online portfolio is better way to introduce myself than traditional resume. Thanks this project is easier to employer to know something abut me and my projects.
+I created this project because I think that online portfolio is better way to introduce myself than traditional resume. Thanks this project is easier for the employer to know something abut me and my projects.
 
 ## Technologies
 Project is created with:
