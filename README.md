@@ -16,7 +16,7 @@ Project is created with:
 * CSS 3
 
 ## Setup
-To run this project go to settings, scroll the page and in section GiyHub Pages click the address.
+https://altowka.github.io/resume1/
 
 ## Inspiration 
 
